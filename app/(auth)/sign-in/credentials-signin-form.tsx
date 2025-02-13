@@ -12,7 +12,7 @@ import { useFormStatus } from "react-dom";
 
 const CredentialsSignInForm = () => {
   const [data, action] = useActionState(signInWithCredentials, {
-    success: "false",
+    success: false,
     message: "",
   });
 
